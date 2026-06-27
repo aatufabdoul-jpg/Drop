@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.drop.filetransfer.ui.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.drop.filetransfer.ui.SendFragment"
+        android:label="@string/send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/receiveFragment"
+        android:name="com.drop.filetransfer.ui.ReceiveFragment"
+        android:label="@string/receive"
+        tools:layout="@layout/fragment_receive" />
+
+</navigation>

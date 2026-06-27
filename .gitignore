@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+.classpath
+.project
+.settings/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.apk
+*.ap_
+.DS_Store
+
+# Log files
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# React Native
+.bundle/
+react-native.config.js
+index.js
+App.js

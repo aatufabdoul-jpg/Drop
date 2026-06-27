@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drop</string>
+    <string name="send_file">Envoyer un fichier</string>
+    <string name="receive_file">Recevoir un fichier</string>
+    <string name="select_files">Sélectionner des fichiers</string>
+    <string name="start_listening">Commencer à écouter</string>
+    <string name="stop_listening">Arrêter d\'écouter</string>
+    <string name="send">Envoyer</string>
+    <string name="home">Accueil</string>
+    <string name="send">Envoyer</string>
+    <string name="receive">Recevoir</string>
+    <string name="wifi_direct_status">État WiFi Direct</string>
+</resources>
